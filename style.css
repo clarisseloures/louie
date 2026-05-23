@@ -1,0 +1,11 @@
+/* GLOBAL */
+@import url(./css/global/global.css);
+@import url(./css/global/footer.css);
+
+/* HEADER */
+@import url(./css/header/header.css);
+
+/* PAGINAS */
+@import url(./css/page/about.css);
+@import url(./css/page/collection.css);
+@import url(./css/page/fotos.css);

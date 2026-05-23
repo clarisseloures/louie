@@ -1,0 +1,66 @@
+#alinhados {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  background-color: #ededf0;
+  gap: 40px;
+}
+#primeira_foto {
+  width: 50%;
+  height: 100%;
+  background-image: url(../../images/iconauthor.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#terceira_sessao {
+  width: 45%;
+  h1 {
+    color: black;
+    font-size: 2.5rem;
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  span {
+    color: #ccb78f;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+#saudacao {
+  color: #b3aeaec0;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 9px;
+}
+#apresentacao {
+  color: #807b7bb0;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 35px;
+}
+#assinatura {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+#social-icons {
+  display: flex;
+  gap: 20px;
+}
+.icons {
+  width: max-content;
+  height: max-content;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}
