@@ -1,11 +1,11 @@
 header {
+  width: 20%;
+  height: 100%;
   top: 0;
-  position: sticky;
+  position: fixed;
   background-color: #f3f3f3;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  height: 100vh;
-  width: 430px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -20,9 +20,8 @@ header {
   }
   p {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 23px;
     margin-bottom: 30px;
-    margin-top: 10px;
   }
   a {
     color: rgba(27, 27, 27, 0.788);
@@ -30,12 +29,20 @@ header {
     font-weight: 700;
   }
   h2 {
-    font-size: 1.125rem;
+    padding-top: 300px;
+    font-size: 18px;
     font-weight: 700;
   }
   input {
-    width: max-content;
-    height: 40px;
+    width: 23vh;
+    height: 5vh;
     border: 1px solid #ccb78f49;
+  }
+  #primeira_foto {
+    img {
+      object-fit: cover;
+      height: 100vh;
+      width: 125%;
+    }
   }
 }

@@ -21,7 +21,7 @@ footer {
   gap: 30px;
 }
 #primeira-coluna {
-  width: 33%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -42,7 +42,7 @@ footer {
 #segunda-coluna {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 30%;
   gap: 50px;
   h4 {
     color: #fff;
@@ -68,4 +68,24 @@ footer {
   border: none;
 }
 #terceira-coluna {
+  width: 45%;
+  h4{
+    padding-bottom: 50px;
+    color: white;
+  }
+}
+.icone-footer{
+  display: inline;
+  width:30px ;
+  height:30px ;
+}
+.questions{
+  display: inline;
+  span{
+    font-size: 15px;
+    color: white;
+  }
+  a{
+    color: white;
+  }
 }
